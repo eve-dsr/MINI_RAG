@@ -1,0 +1,14 @@
+{
+  "answer": "Artificial Intelligence is the capability of computational systems to perform tasks associated with human intelligence such as learning, reasoning, and decision-making.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "snippet": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence..."
+    }
+  ],
+  "timings": {
+    "retrieval_ms": 102.3,
+    "generation_ms": 1845.5,
+    "total_ms": 1947.8
+  }
+}

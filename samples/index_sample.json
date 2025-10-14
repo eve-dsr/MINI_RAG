@@ -1,0 +1,4 @@
+{
+  "chunks": 60,
+  "index_path": "artifacts/vectors/index.faiss"
+}
