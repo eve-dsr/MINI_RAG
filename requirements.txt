@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+faiss-cpu>=1.9.0
+sentence-transformers
+transformers
+beautifulsoup4
+requests
+numpy
