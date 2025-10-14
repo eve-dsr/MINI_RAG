@@ -89,4 +89,4 @@ curl -X POST http://127.0.0.1:8000/crawl   -H "Content-Type: application/json"  
 curl -X POST http://127.0.0.1:8000/index   -H "Content-Type: application/json"   -d '{"chunk_size":1000,"chunk_overlap":120,"embedding_model":"sentence-transformers/all-MiniLM-L6-v2"}'
 
 curl -X POST http://127.0.0.1:8000/query   -H "Content-Type: application/json"   -d '{"question":"What is Artificial Intelligence?"}'
-```
+```# Mini-RAG
