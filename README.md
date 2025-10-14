@@ -93,3 +93,17 @@ curl -X POST http://127.0.0.1:8000/query   -H "Content-Type: application/json"  
 # MINI_RAG
 # MINI_RAG
 # MINI_RAG
+
+
+---
+
+## 🧪 Sample API Evals
+
+Example real API outputs from the Mini-RAG service are stored in the [`samples/`](samples/) folder.
+
+| Endpoint | Description | Example |
+|-----------|--------------|----------|
+| `/crawl` | Crawls in-domain pages and collects clean text | [crawl_sample.json](samples/crawl_sample.json) |
+| `/index` | Chunks text and creates FAISS vector index | [index_sample.json](samples/index_sample.json) |
+| `/query` (answerable) | Returns grounded answer from context | [query_answerable.json](samples/query_answerable.json) |
+| `/query` (refusal) | Responds when no info found in crawled corpus | [query_refusal.json](samples/query_refusal.json) |
