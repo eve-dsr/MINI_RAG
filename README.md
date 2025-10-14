@@ -91,3 +91,4 @@ curl -X POST http://127.0.0.1:8000/index   -H "Content-Type: application/json"  
 curl -X POST http://127.0.0.1:8000/query   -H "Content-Type: application/json"   -d '{"question":"What is Artificial Intelligence?"}'
 ```# Mini-RAG
 # MINI_RAG
+# MINI_RAG
