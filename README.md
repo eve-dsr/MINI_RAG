@@ -11,10 +11,9 @@ So it’s like giving the model its own short-term “research assistant” — 
 
 ⸻
 
-⚙️ Your Mini-RAG System — Step by Step
+⚙️ Mini-RAG System — Step by Step
 
-Your project builds a complete end-to-end RAG pipeline, using open-source components, running locally.
-
+project builds a complete end-to-end RAG pipeline, using open-source components, running locally
 ⸻
 
 1️⃣ Crawl – Data Collection
@@ -55,7 +54,7 @@ When a user asks a question (e.g. “What is Artificial Intelligence?”):
 
 User Question
    ↓
-  Embedding (MiniLM)
+Embedding (MiniLM)
    ↓
 Vector Search (FAISS)
    ↓
